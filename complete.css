@@ -1,0 +1,202 @@
+@import url("https://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.testindex {
+  display: flex;
+}
+
+.body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ecf0f3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  font-family: "ITC Avant Garde Gothic Std Bold", sans-serif;
+}
+
+.form {
+  position: relative;
+  width: 600px;
+  height: auto;
+  border-radius: 20px;
+  padding: 4%;
+  margin: 70px;
+  display: block;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.imgAthena {
+  height: 100px;
+  width: 100px;
+  /* background-image: url("/images/Athena.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.brand-title {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #eda513;
+  letter-spacing: 4px;
+}
+.inputs {
+  text-align: left;
+  margin-top: 30px;
+  display: block;
+  border: none;
+  outline: none;
+  background: #ecf0f3;
+}
+
+.inputs {
+  margin-top: 10px;
+  background: #ecf0f3;
+  display: block;
+}
+
+input:focus {
+  border: 2px solid #eda513;
+}
+
+.message {
+  font-family: "futura-medium", sans-serif;
+  color: #8f9194;
+  font-size: 1rem;
+  padding-top: 30px;
+}
+
+label,
+input,
+option,
+select {
+  padding: 5px;
+  display: block;
+  margin: 10px;
+  border: 2px solid #eda513 !important;
+  border-color: #eda513 !important;
+  outline: 0 none !important;
+  border: none !important;
+  outline: none !important;
+  border: 0 !important;
+  font-family: "futura-medium", sans-serif;
+  box-sizing: border-box;
+  color: #8f9194;
+  background: #ecf0f3;
+}
+
+button {
+  margin-top: 3%;
+  width: 100%;
+  display: block;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  /* color: gray; */
+  background: #ecf0f3 !important;
+  color: #8f9194;
+  display: block;
+}
+
+select,
+input {
+  background: #ecf0f3 !important;
+  /* padding: 10px; */
+  /* padding-left: 10%; */
+  text-align: center;
+  height: 35px;
+  margin: 10px;
+  font-size: 0.9rem !important;
+  display: block !important;
+  border-radius: 50px;
+  border: 2px solid #eda513;
+  box-shadow: inset 2px 2px 2px #cbced1, inset -2px -2px 2px white;
+}
+
+.input {
+  margin-top: 10px;
+  background: #ecf0f3;
+  color: #8f9194;
+  display: block;
+}
+
+textarea:focus,
+input:focus,
+select:focus,
+input:focus,
+input[type]:focus {
+  border-color: #eda513;
+  box-shadow: 0 1px 1px rgb(237, 165, 19) inset, 0 0 8px rgb(237, 165, 19);
+  outline: 0 none;
+}
+
+button {
+  margin-top: 20px;
+  background: #eda513;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  /* box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white; */
+  transition: 0.5s;
+  border: none;
+  color: white;
+}
+
+button:hover {
+  box-shadow: none;
+  background: #f7b530;
+}
+
+.a {
+  position: absolute;
+  font-size: 8px;
+  bottom: 4px;
+  right: 4px;
+  text-decoration: none;
+  color: black;
+  background: yellow;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.registro {
+  color: #8f9194;
+  font-size: 1rem;
+}
+
+.parrafo {
+  color: #8f9194;
+  font-size: 0.8rem;
+}
